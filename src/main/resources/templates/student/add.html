@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8"/>
+    <title></title>
+</head>
+<body>
+
+<h1>Add Student</h1>
+
+<form method="POST" action=""> <!-- action is the url path where I'm sending the result to !-->
+    First Name:<br>
+    <input type="text" name="firstName" /><br>
+
+    Last Name:<br>
+    <input type="text" name="LastName" /><br>
+
+    TA Group:<br>
+    <select name="taGroup">
+        <option value="amanda"> Amanda </option>
+        <option value="steven"> Steven </option>
+        <option value="tom"> Tom </option>
+    </select>
+</form><br>
+
+<button> Add Student </button>
+
+</body>
+</html>
